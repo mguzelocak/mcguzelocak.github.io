@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Class</title>
+    <style>
+      div {
+        /* giving space to box for demoing */
+        height: 150px;
+        width: 150px;
+        border: 1px solid #000;
+      }
+      span {
+        background-color: yellow;
+      }
+      span.class-add {
+        background-color: rebeccapurple;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Just a div element</div>
+    <div class="class-add">
+      First add class<br>
+      <span class="class-add">Inside one box</span>
+    </div>
+    <div class="class-add">
+      Second add class<br>
+      <span>Inside second box</span>
+    </div>
+  </body>
+</html>
