@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    border: 1px solid #686565;
+    background-color: #F0E8E5;
+    padding: 2%;
+    margin: 0.3%;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    padding-bottom: 3%;
+}
+
+li {
+    display: inline-block;
+    margin-left: 18%;
+    margin-top: 2%;
+}
+
+p {
+    margin-left: 38.6%;
+    padding: 1%;
+    font-size: medium;
+    color: #686565;
+}
