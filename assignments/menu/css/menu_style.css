@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 .body_part {
     padding: 30%;
     background-color: #F0E8E5;
@@ -10,30 +11,31 @@
 header {
     border-bottom: 1px solid #686565;
     background-color: #D9D9D9;
-    font-size: 45px;
-    /* padding-left: 46.4%; */
+    font-size: 3em;
     margin: auto;
     display: flex;
     padding-top: 1%;
-    /* padding-left: 46.4%; */
     padding-bottom: 1%;
     flex-flow: row;
     justify-content: space-between;
     text-align: center;
-    
 }
 
-h1 {
-    font-size: xx-large;
-    /* padding-right: 45%; */
+.title {
     text-align: center;
+    background-color: #D9D9D9;
+    margin-right: 44%;
+    margin-left: 35%;
+}
+
+.title h1 {
+    font-size: 0.9em;
 }
 
 footer {
     border: 1px solid #686565;
     background-color: #D9D9D9;
     padding: 2%;
-
 }
 
 ul {
@@ -56,44 +58,40 @@ li {
 
 p {
     display: flex;
-    /* justify-content: space-between; */
-    /* margin: 40% auto; */
     padding-left: 38.6%;
-    /* margin-left: 0 auto; */
-    /* padding-right: 10%; */
-    font-size: medium;
+    font-size: 1em;
     color: #686565;
 }
 
-
 .menu-toggle {
     cursor: pointer;
-    font-size: 30px;
+    font-size: 0.8em;
     flex-flow: column;
-    /* top: 50; */
-    /* width: 76; */
-    justify-content: space-between;
+    text-align: center;
+    margin-left: 1%;
 }
     
 .nav-menu {
     display: none;
+    padding-left: 0%;
 }
     
 .nav-menu.active {
     display: block;
-    
+    font-size: 0.7em;
+    padding-right: 10%;
+    .title {
+        margin-left: 30%;
+    }
 }
     
 .nav-menu ul {
     list-style-type: none;
-    margin-top: 8px;
+    margin-top: 1.4em;
     display: block;
-    
 }
     
 .nav-menu li {
-    margin-bottom: 10px;
-    margin-left: 5px;
     display: block;
 }
     
@@ -106,3 +104,39 @@ p {
     border-bottom: 1px solid #D9D9D9;
     background-color: #686565;
 }
+
+/* @media (min-width: 768px) {
+    header {
+        display: flex;
+        flex-flow: column-reverse;
+        padding-bottom: 0;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    h1 {
+        text-align: center;
+        margin-left: 50%;
+    }
+
+    .nav-menu {
+        display: flex;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .nav-menu ul {
+        display: inline-flex;
+    }
+
+    .nav-menu li {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .nav-menu a {
+        font-size: 0.7em;
+    }
+} */
