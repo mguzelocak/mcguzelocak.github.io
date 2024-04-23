@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+body {
+  display: block;
+}
+
 .body_part {
   padding: 30%;
   background-color: #f0e8e5;
@@ -100,6 +104,16 @@ footer p {
 }
 
 @media (min-width: 768px) {
+  body {
+    background-image: url("../img/GUGU4516.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 1024px;
+    margin: 10px auto;
+    border: 1px solid #686565;
+  }
+
   header {
     display: flex;
     flex-flow: column;
