@@ -52,7 +52,7 @@ ul {
 }
 
 li {
-  display: inline-block;
+  display: inline-block; /*helps people to put blocks on aline*/
 }
 
 footer p {
@@ -163,13 +163,13 @@ footer p {
   width: 35%;
   margin: 5%;
   box-shadow: 3px 3px 6px #686565;
-  border-radius: 0.6rem;
+  border-radius: 0.6rem; /*creates soft cornered boxes*/
 }
 
 #about p {
   text-wrap: pretty;
   margin: auto 4%;
-  text-align: justify;
+  text-align: justify; /*covers all the line and adjust spaces between words*/
   margin-bottom: 4%;
 }
 
@@ -191,8 +191,7 @@ footer p {
   display: block;
   background-color: #686565;
   opacity: 0.3;
-  transition: 0.5s ease;
-  backface-visibility: hidden;
+  transition: 0.5s ease; /*add slow transition for hower*/
   box-shadow: 5px 5px 10px #000000;
 }
 
@@ -202,19 +201,15 @@ footer p {
   position: absolute;
   top: 19%;
   left: 34%;
-  /* transform: translate(-20%, -40%); */
-  /* -ms-transform: translate(-20%, -40%); */
   text-align: center;
 }
 
 .middle2 {
   opacity: 0;
   transition: 0.5s ease;
-  position: absolute;
+  position: absolute; /*takes element out of regular possitonning*/
   top: 70%;
   left: 34%;
-  /* transform: translate(-20%, -40%); */
-  /* -ms-transform: translate(-20%, -40%); */
   text-align: center;
 }
 
@@ -227,7 +222,6 @@ footer p {
 }
 
 .miami {
-  /* background-color: #04AA6D; */
   color: white;
   font-size: 2rem;
   padding: 16px 32px;
@@ -240,7 +234,6 @@ footer p {
 }
 
 .montana {
-  /* background-color: #04AA6D; */
   color: white;
   font-size: 2rem;
   padding: 16px 32px;
@@ -331,8 +324,6 @@ footer p {
     position: absolute;
     top: 34%;
     left: 45%;
-    /* transform: translate(-37%, -48%); */
-    /* -ms-transform: translate(-37%, -48%); */
     text-align: center;
   }
 
@@ -348,8 +339,6 @@ footer p {
     position: absolute;
     top: 120%;
     left: 45%;
-    /* transform: translate(-37%, -48%); */
-    /* -ms-transform: translate(-37%, -48%); */
     text-align: center;
   }
 
